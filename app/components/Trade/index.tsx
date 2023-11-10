@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const featuresdata: featuresdata[] = [
+const featuresdata = [
     {
         imgSrc: '/images/Features/featureOne.svg',
         heading: 'Clear',
