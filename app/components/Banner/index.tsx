@@ -22,7 +22,7 @@ const Banner = () => {
                             <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
                                 Automatisation <br /> avec EveBOT
                             </h1>
-                            <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>EveBOT est un BOT discord personnalisé dans le but de pouvoir modérer, administrer et automatisé le serveur communautaire discord de l&#39;IUT Informatique de Clermont-Ferrand.</p>
+                            <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>EveBOT est un BOT discord personnalisé dans le but de pouvoir modérer, administrer et automatisé le serveur communautaire discord IUT Informatique de Clermont-Ferrand.</p>
                             <div className='flex align-middle justify-center md:justify-start'>
                                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>Get Started</button>
                                 <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-white'><Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How it work</button>
