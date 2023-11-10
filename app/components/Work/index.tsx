@@ -11,21 +11,21 @@ interface workdata {
 const workdata: workdata[] = [
     {
         imgSrc: '/images/Work/icon-one.svg',
-        heading: 'Create Account',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Moderation',
+        subheading: 'Eve permet de gérer la partie modération du discord IUT Informatique, grâce à de nombreuses commandes tel',
+        hiddenpara: 'que : ban (banissement), kick (expulsion), warn (avertissement), moon (sourdine) et bien d\'autres !',
     },
     {
         imgSrc: '/images/Work/icon-two.svg',
-        heading: 'Find your Credit',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Système de rôles',
+        subheading: 'Eve gère également tous les rôles des utilisateurs. Cela permet aux arrivant de choisir leur rôles (étudiant  ou non).',
+        hiddenpara: 'Des rôles scolaire sont ainsi disponibles pour leur année et leur groupe, mais aussi des rôles de jeu.',
     },
     {
         imgSrc: '/images/Work/icon-three.svg',
-        heading: 'Exchange Currency',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Système de level',
+        subheading: 'Dans le but de récompenser les membres les plus actifs une partie gain d\'xp lors de l\'envoie d\'un message est également disponible.',
+        hiddenpara: 'Grâce à cet xp, les utilisateurs peuvent ensuite convertir cela en cosmétiques pour personaliser leur profil BOT !',
     },
 
 ]
@@ -36,8 +36,8 @@ const Work = () => {
             <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative'>
                 <div className="radial-bgone hidden lg:block"></div>
                 <div className='text-center mb-14'>
-                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>How it work</h3>
-                    <p className='text-bluish md:text-lg font-normal leading-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry standard dummy text ever.</p>
+                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>Comment ca marche ?</h3>
+                    <p className='text-bluish md:text-lg font-normal leading-8'>Eve a été concu pour pouvoir répondre aux demandes des utilisateurs en matières d'aide scolaire, un système de gestions des rôles de groupes et d'années est présent ainsi qu'un module de modération. En plus de cela Eve comporte une multitude de commandes utiles pour les élèves notament avec les liens utiles et autres.</p>
                 </div>
 
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32'>

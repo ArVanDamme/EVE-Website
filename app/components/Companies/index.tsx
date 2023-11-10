@@ -9,22 +9,22 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/images/Companies/node.svg"
+        imgSrc: "/images/Companies/node.png"
     },
     {
-        imgSrc: "/images/Companies/logo-javascript.svg"
+        imgSrc: "/images/Companies/mongo.png"
     },
     {
-        imgSrc: "/images/Companies/mongo.svg"
+        imgSrc: "/images/Companies/js.png"
     },
     {
-        imgSrc: "/images/Companies/shield.svg"
+        imgSrc: "/images/Companies/next.jpg"
     },
     {
-        imgSrc: "/images/Companies/tandov.svg"
+        imgSrc: "/images/Companies/discord.png"
     },
     {
-        imgSrc: "/images/Companies/tree.svg"
+        imgSrc: "/images/Companies/git.png"
     },
 ]
 
@@ -78,10 +78,17 @@ export default class MultipleItems extends Component {
             <div className='text-center bg-lightpink' >
                 <div className="mx-auto max-w-2xl py-16 px-4s sm:px-6 lg:max-w-7xl lg:px-8">
                     <div>
-                        <Slider {...settings}>
+                        <Slider {...settings} className="size">
                             {data.map((item, i) =>
-                                <div key={i}>
-                                    <img src={item.imgSrc} alt={item.imgSrc} />
+                                <div key={i} >
+                                    <img src={item.imgSrc} alt={item.imgSrc} className="size"/>
+                                    <style jsx>{`
+                                        .size {
+                                            height: 80px;
+                                            justify-content: space-between;
+                                            margin: 0 10px;
+                                        }
+                                    `}</style>
                                 </div>
                             )}
                         </Slider>

@@ -10,16 +10,16 @@ interface faqdata {
 
 const faqdata: faqdata[] = [
     {
-        heading: "1. What is cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "1. Qu'est ce qu'un BOT Discord ?",
+        subheading: 'Les bots Discord sont des bots qui fonctionnent uniquement sur Discord. Ils permettent de profiter de différentes sortes de fonctionnements avancés et aident les utilisateurs à effectuer certaines tâches qu’ils ne pouvaient réaliser auparavant.'
     },
     {
-        heading: "2. Can cryptocurrency be converted to cash?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "2. Peut-on rejoindre le serveur discord sans être étudiant ?",
+        subheading: 'Bien sure, des rôles Invité existent et peuvent être attribué sur demande.'
     },
     {
-        heading: "3. How long should you hold cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "3. Pourquoi 'Eve Bot' ?",
+        subheading: 'Aucune idée quelle question.....'
     },
 
 ]
@@ -27,8 +27,8 @@ const faqdata: faqdata[] = [
 const Faq = () => {
     return (
         <div className="my-20 px-6" id="faq-section">
-            <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">Frequently Asked And Question</h3>
-            <p className="text-center lg:text-lg font-normal text-bluish">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br /> been the industry standard dummy text ever since the 1500s,</p>
+            <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">Frequently Asked Question</h3>
+            <p className="text-center lg:text-lg font-normal text-bluish">Quelques questions régulièrement posés par des utilisateurs : </p>
 
             <div className="mx-auto max-w-7xl">
                 <div className="grid lg:grid-cols-2">

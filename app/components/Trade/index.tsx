@@ -1,30 +1,50 @@
 import Image from "next/image";
 
+const featuresdata: featuresdata[] = [
+    {
+        imgSrc: '/images/Features/featureOne.svg',
+        heading: 'Clear',
+        subheading: 'Suppression de message (Modération)',
+    },
+    {
+        imgSrc: '/images/Features/featureOne.svg',
+        heading: 'Fusee',
+        subheading: 'Mise en sourdine d\'un utilisateur pour 2min par défaut',
+    },
+    {
+        imgSrc: '/images/Features/featureOne.svg',
+        heading: 'Sanction',
+        subheading: 'Sanction d\'un utiliasteur via un menu (Modération)',
+    },
+    {
+        imgSrc: '/images/Features/featureOne.svg',
+        heading: 'ServerInfo',
+        subheading: 'Information du serveur (Modération)',
+    },
+    {
+        imgSrc: '/images/Features/featureThree.svg',
+        heading: 'En cours....',
+        subheading: 'Ca arrive pas eu le temps de faire les 430 commandes',
+    }
+]
 
 const Trade = () => {
     return (
-        <div className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative">
+        <div className="m-auto max-w-7xl mt-20 mb-5 align-top relative">
             <div className="radial-bgone hidden lg:block"></div>
 
-            <div className="grid lg:grid-cols-2 gap-x-5">
-                {/* Column-1 */}
-                <div>
-                    <Image src={'/images/Trade/macbook.png'} alt="macBook-image" width={787} height={512} />
-                </div>
-
-                {/* Column-2 */}
-
-                <div>
-                    <h3 className="text-3xl lg:text-5xl font-semibold text-offwhite mb-6 text-center sm:text-start">Trade Anywhere <br /> Any time</h3>
-                    <p className="lg:text-lg font-normal text-lightblue mb-16 text-center sm:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <div className="flex justify-between">
-                        <Image src={'/images/Trade/mac.svg'} alt="macOS-image" width={61} height={105} />
-                        <div className="verticalLine"></div>
-                        <Image src={'/images/Trade/appstore.svg'} alt="appstore-image" width={80} height={105} />
-                        <div className="verticalLine"></div>
-                        <Image src={'/images/Trade/windows.svg'} alt="windows-image" width={80} height={105} />
-                        <div className="verticalLine"></div>
-                        <Image src={'/images/Trade/android.svg'} alt="android-image" width={71} height={105} />
+            <div className="grid gap-x-5">
+            <div>
+                    <div className="grid md:grid-cols-4 lg:grid-cols-4 gap-x-4 gap-y-4">
+                        {featuresdata.map((items, i) => (
+                            <div className="bg-blue py-10 pr-12 pl-6 rounded-lg" key={i}>
+                                <div className="rounded-full gg h-16 w-16 flex items-center justify-center mb-10">
+                                    <Image src={items.imgSrc} alt={items.imgSrc} width={24} height={30} />
+                                </div>
+                                <h5 className="text-offwhite text-lg font-medium mb-4">{items.heading}</h5>
+                                <p className="text-lightblue text-sm font-normal">{items.subheading}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
