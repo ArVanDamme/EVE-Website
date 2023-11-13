@@ -4,7 +4,7 @@ import Work from './components/Work/index';
 import Table from './components/Table/index';
 import Features from './components/Features/index';
 import Simple from './components/Simple/index';
-import Trade from './components/Classement/index';
+import Trade from './components/Commands/index';
 import Faq from './components/Faq/index';
 
 
