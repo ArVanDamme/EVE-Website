@@ -87,7 +87,7 @@ html:not([data-scroll="0"]) .navbar {
 .arrowFive {
   position: absolute;
   background-image: url('/images/Banner/arrowFive.svg');
-  top: 61%;
+  top: 66%;
   left: 53%;
   width: 9%;
   height: 100%;

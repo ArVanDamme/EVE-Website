@@ -31,7 +31,6 @@ const Banner = () => {
 
                         <div className='col-span-5 lg:-m-48'>
                             <div className='arrowThree'></div>
-                            <div className='arrowFour'></div>
                             <div className='arrowFive'></div>
                             <div className='arrowSix'></div>
                             <div className='arrowSeven'></div>
